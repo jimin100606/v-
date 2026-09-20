@@ -61,8 +61,32 @@
     <Analyzer Include="C:\Program Files\Unity 6000.0.68f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.UIToolkit.SourceGenerator.dll" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\TilemapChecker.cs" />
+    <Compile Include="Assets\Scripts\PokemonData.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs_with_behavior\tall_grass_react_on_contact\Scripts\TallGrassAnimationOnContact.cs" />
+    <Compile Include="Assets\Layer Lab\Scripts\PanelControl.cs" />
+    <Compile Include="Assets\Gif\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
+    <Compile Include="Assets\Scripts\BattleManager.cs" />
+    <Compile Include="Assets\Scripts\PlayerParty.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs_with_behavior\chest_open_on_contact\Scripts\ChestAnimationOnContact.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs\Crops\Scripts\SpriteSelectFrame.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Scripts\SuperRetroAssetsDiscounts.cs" />
+    <Compile Include="Assets\Scripts\EnemyPokemon.cs" />
+    <Compile Include="Assets\Scripts\ExpTable.cs" />
+    <Compile Include="Assets\TutorialInfo\Scripts\Readme.cs" />
+    <Compile Include="Assets\Scripts\NpcParty.cs" />
     <Compile Include="Assets\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Scripts\CharacterAppearance.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Scripts\PlayerMovement.cs" />
+    <Compile Include="Assets\Layer Lab\Scripts\PanelView.cs" />
+    <Compile Include="Assets\Layer Lab\GUI Pro-FantasyRPG\Extensions\UIParticle\UIParticleSystem.cs" />
+    <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs_with_behavior\block_push_on_contact\Scripts\BlockPushOnContact.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs\Crops\README_HOW_TO_USE_CROPS.txt" />
+    <None Include="Assets\ElvGames\Fantasy Dreamland Reborn\Tilesets\Auto Tiles\Rule Tiles.txt" />
+    <None Include="Assets\Gif\Ruccho\FangAutoTile\Readme.txt" />
+    <None Include="Assets\Gif\Ruccho\FangAutoTile\Readme-ja.txt" />
+    <None Include="Assets\ElvGames\Fantasy Dreamland\Read Me.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">
@@ -559,6 +583,14 @@
     </Reference>
     <Reference Include="System.Runtime.CompilerServices.Unsafe">
       <HintPath>Library\PackageCache\com.unity.collections@aea9d3bd5e19\Unity.Collections.Tests\System.Runtime.CompilerServices.Unsafe\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Types">
+      <HintPath>C:\Program Files\Unity 6000.0.68f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Types.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Android.Gradle">
+      <HintPath>C:\Program Files\Unity 6000.0.68f1\Editor\Data\PlaybackEngines\AndroidPlayer\Unity.Android.Gradle.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="netstandard">
@@ -1319,6 +1351,14 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="FangAutoTile.Editor.csproj">
+      <Project>{6BE76858-C412-A738-74DC-570EB47A8926}</Project>
+      <Name>FangAutoTile.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="FangAutoTile.csproj">
+      <Project>{0098294F-76DC-1CBE-6689-DB2DC041C956}</Project>
+      <Name>FangAutoTile</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="GenerateTargetFrameworkMonikerAttribute" />
