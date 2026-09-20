@@ -20,7 +20,7 @@ public class PlayerParty : MonoBehaviour
         public int SpecialDefense;
         public int Speed;
     }
-    private void Start()
+    private void Awake()
     {
         PokemonData pokemonData = FindFirstObjectByType<PokemonData>();
 
@@ -55,7 +55,14 @@ public class PlayerParty : MonoBehaviour
 
             PlayerBoxList.Add(playerPokemon);
         }
-        
+     
 
+    }
+    public PlayerPokemon GetFirstPokemon()
+    {
+        if (PlayerPartyList.Count == 0)
+            return null;
+
+        return PlayerPartyList[0];
     }
 }

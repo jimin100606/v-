@@ -1,0 +1,141 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\npcparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\playerparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\exptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\exptable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\pokemondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\pokemondata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\\uD3EC\uD3F4-pjm\\my project (2)\\assets\\scripts\\enemypokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D0F74257-F6B2-DCEA-FC51-AA11C694D4B0}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ExpTable.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\ExpTable.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\ExpTable.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\ExpTable.cs",
+              "RelativeToolTip": "Assets\\Scripts\\ExpTable.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:37:34.733Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PokemonData.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\PokemonData.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PokemonData.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\PokemonData.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PokemonData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:37:51.012Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAUwD0AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:35:42.405Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerParty.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\PlayerParty.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerParty.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\PlayerParty.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerParty.cs",
+              "ViewState": "AgIAABEAAAAAAAAAAAAiwBcAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:37:47.599Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "NpcParty.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\NpcParty.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcParty.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\NpcParty.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcParty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvw8AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:37:38.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAGgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:37:44.557Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "EnemyPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\EnemyPokemon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPokemon.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\\uD3EC\uD3F4-pjm\\My project (2)\\Assets\\Scripts\\EnemyPokemon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyPokemon.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAADwvwAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-09-20T05:37:33.873Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

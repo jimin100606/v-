@@ -3,7 +3,7 @@ using UnityEngine;
 public class NpcParty : MonoBehaviour
 {
     [SerializeField]private EnemyPokemon[] Party = new EnemyPokemon[6];
-    private void Start()
+    private void Awake()
     {
         foreach (EnemyPokemon pokemon in Party)
         {
@@ -12,5 +12,9 @@ public class NpcParty : MonoBehaviour
                 pokemon.Initialize();
             }
         }
+    }
+    public EnemyPokemon GetFirstPokemon()
+    {
+        return Party[0];
     }
 }

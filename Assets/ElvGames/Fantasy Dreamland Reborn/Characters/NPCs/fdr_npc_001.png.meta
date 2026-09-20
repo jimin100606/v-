@@ -1,9 +1,16 @@
 fileFormatVersion: 2
 guid: cdeef39a8c35d994a82b6432ab248b83
+AssetOrigin:
+  serializedVersion: 1
+  productId: 231554
+  packageName: 2D TopDown Tilesets Fantasy Dreamland
+  packageVersion: 5.16.0
+  assetPath: Assets/ElvGames/Fantasy Dreamland Reborn/Characters/NPCs/fdr_npc_001.png
+  uploadId: 953480
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
-  serializedVersion: 12
+  serializedVersion: 13
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -67,7 +74,7 @@ TextureImporter:
   swizzle: 50462976
   cookieLightType: 0
   platformSettings:
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: DefaultTexturePlatform
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -80,7 +87,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: WebGL
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -93,7 +100,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Standalone
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -106,7 +113,7 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
+  - serializedVersion: 4
     buildTarget: Server
     maxTextureSize: 2048
     resizeAlgorithm: 0
@@ -119,11 +126,24 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: FD_Character_001_0
+      name: fdr_npc_001_0
       rect:
         serializedVersion: 2
         x: 0
@@ -131,20 +151,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e588eaeb62114d149a161b112b382a13
-      internalID: 1171427847
+      spriteID: d6f92558304a84442ac1288df3a4e47e
+      internalID: -1797023073
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_1
+      name: fdr_npc_001_1
       rect:
         serializedVersion: 2
         x: 24
@@ -152,20 +173,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0cd563c652ecd1f43b9ff0e3beb1b417
-      internalID: 1400998785
+      spriteID: ee918e60ce73b1047a7ae007dccffc74
+      internalID: -844621988
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_2
+      name: fdr_npc_001_2
       rect:
         serializedVersion: 2
         x: 48
@@ -173,20 +195,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 0fe30578e376a89489c5892ee1efe942
-      internalID: 222179144
+      spriteID: 85f86f405fe2d6746a483aa8374df442
+      internalID: 12541488
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_3
+      name: fdr_npc_001_3
       rect:
         serializedVersion: 2
         x: 72
@@ -194,20 +217,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c169be01d3a2b8f4aa6b1a024736867d
-      internalID: -1853965249
+      spriteID: edc6a0359f4b81045ac2f55576423dfe
+      internalID: 2130221305
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_4
+      name: fdr_npc_001_4
       rect:
         serializedVersion: 2
         x: 0
@@ -215,20 +239,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2233ae399a087ec4eaee296632184169
-      internalID: -1055724634
+      spriteID: 50604502a7027ad4eb0816af0b0038a7
+      internalID: 482496125
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_5
+      name: fdr_npc_001_5
       rect:
         serializedVersion: 2
         x: 24
@@ -236,20 +261,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b7e992242b677314698bd3cf8c8c487d
-      internalID: -1453957381
+      spriteID: 7d12d54d11648754aa26a2c4b6e312e0
+      internalID: 601826515
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_6
+      name: fdr_npc_001_6
       rect:
         serializedVersion: 2
         x: 48
@@ -257,20 +283,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9b6aebb1566ba944b89ab114a1ff01f5
-      internalID: 1721602325
+      spriteID: 85cfcf6971dab484c923dfe843353b0e
+      internalID: 433028103
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_7
+      name: fdr_npc_001_7
       rect:
         serializedVersion: 2
         x: 72
@@ -278,20 +305,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 33af2b992bd0f8848bf91bf65c325f93
-      internalID: -141124160
+      spriteID: e9ae9bd7803ae1f4aaf9f67d0e9c5d37
+      internalID: 1618579596
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_8
+      name: fdr_npc_001_8
       rect:
         serializedVersion: 2
         x: 0
@@ -299,20 +327,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 3b858adb70cb2a44380fa26930f2ff92
-      internalID: 486911028
+      spriteID: 23b6c57cc8a4c5045bd5db5315c07658
+      internalID: 695868270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_9
+      name: fdr_npc_001_9
       rect:
         serializedVersion: 2
         x: 24
@@ -320,20 +349,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27bb3aac64263224eac9e3271b746841
-      internalID: -2134991429
+      spriteID: 155c6de693134914694a2ff6a2f96c81
+      internalID: -310471952
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_10
+      name: fdr_npc_001_10
       rect:
         serializedVersion: 2
         x: 48
@@ -341,20 +371,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: a296f4bd018bb1d459ac557d7fb0fc5e
-      internalID: 343707364
+      spriteID: fafa8667e368f1540a720fe733dfdf81
+      internalID: -1424696970
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_11
+      name: fdr_npc_001_11
       rect:
         serializedVersion: 2
         x: 72
@@ -362,20 +393,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f5714fae91bf92e47a3db108de4778a8
-      internalID: -818657204
+      spriteID: c8716f2de2741034ebb7c218f8272b48
+      internalID: 628367659
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_12
+      name: fdr_npc_001_12
       rect:
         serializedVersion: 2
         x: 0
@@ -383,20 +415,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 27bd4ff5889ffb94fb97dbe81b4b2697
-      internalID: 1080207504
+      spriteID: c447ea152a48e3b4e9f232e599aef5c3
+      internalID: 1252384001
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_13
+      name: fdr_npc_001_13
       rect:
         serializedVersion: 2
         x: 24
@@ -404,20 +437,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 83e056929702ca04e92c20d27c0bfc21
-      internalID: -324867376
+      spriteID: bb29c6856dbe4e04c98f787b05de2e8a
+      internalID: 1732224421
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_14
+      name: fdr_npc_001_14
       rect:
         serializedVersion: 2
         x: 48
@@ -425,20 +459,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: acd42d6b00664bc45a2c6f471421a983
-      internalID: -1067495118
+      spriteID: fa4e754052ff13644bd757ce733d55b2
+      internalID: 1059531205
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: FD_Character_001_15
+      name: fdr_npc_001_15
       rect:
         serializedVersion: 2
         x: 72
@@ -446,19 +481,21 @@ TextureImporter:
         width: 24
         height: 24
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 060452d31977dd240acb964725b35b80
-      internalID: -1176760789
+      spriteID: f119fb5a8e91f7640b8c2d0a618f7f80
+      internalID: 434721493
       vertices: []
       indices: 
       edges: []
       weights: []
     outline: []
+    customData: 
     physicsShape: []
     bones: []
     spriteID: 5e97eb03825dee720800000000000000
@@ -468,32 +505,27 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
     nameFileIdTable:
-      FD_Character_001_0: 1171427847
-      FD_Character_001_1: 1400998785
-      FD_Character_001_10: 343707364
-      FD_Character_001_11: -818657204
-      FD_Character_001_12: 1080207504
-      FD_Character_001_13: -324867376
-      FD_Character_001_14: -1067495118
-      FD_Character_001_15: -1176760789
-      FD_Character_001_2: 222179144
-      FD_Character_001_3: -1853965249
-      FD_Character_001_4: -1055724634
-      FD_Character_001_5: -1453957381
-      FD_Character_001_6: 1721602325
-      FD_Character_001_7: -141124160
-      FD_Character_001_8: 486911028
-      FD_Character_001_9: -2134991429
+      fdr_npc_001_0: -1797023073
+      fdr_npc_001_1: -844621988
+      fdr_npc_001_10: -1424696970
+      fdr_npc_001_11: 628367659
+      fdr_npc_001_12: 1252384001
+      fdr_npc_001_13: 1732224421
+      fdr_npc_001_14: 1059531205
+      fdr_npc_001_15: 434721493
+      fdr_npc_001_2: 12541488
+      fdr_npc_001_3: 2130221305
+      fdr_npc_001_4: 482496125
+      fdr_npc_001_5: 601826515
+      fdr_npc_001_6: 433028103
+      fdr_npc_001_7: 1618579596
+      fdr_npc_001_8: 695868270
+      fdr_npc_001_9: -310471952
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
-AssetOrigin:
-  serializedVersion: 1
-  productId: 231554
-  packageName: 2D TopDown Tilesets Fantasy Dreamland
-  packageVersion: 5.16.0
-  assetPath: Assets/ElvGames/Fantasy Dreamland Reborn/Characters/NPCs/fdr_npc_001.png
-  uploadId: 953480
