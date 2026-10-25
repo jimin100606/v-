@@ -6,12 +6,16 @@ public class PlayerMovement : MonoBehaviour
     [SerializeField] private float moveSpeed = 5f;
     [SerializeField] private float gridSize = 1f;
     [SerializeField] private Tilemap tilemap;
+    [SerializeField] private Tilemap encounterTilemap;
+    [SerializeField] private EncounterChance encounterChance;
+    [SerializeField] private WildPokemonGenerator wildPokemonGenerator;
 
     private Vector2Int currentTilePosition;
     private Vector2Int targetTilePosition;
     private Vector3 targetPosition;
     private bool isMoving = false;
     private Rigidbody2D rb;
+    private RaycastHit2D[] castHits = new RaycastHit2D[8];
     private KeyCode blockedKey = KeyCode.None;
 
     private void Start()
@@ -22,10 +26,29 @@ public class PlayerMovement : MonoBehaviour
 
     public void MoveToTile(Vector2Int newTargetTilePosition)
     {
-        targetPosition = tilemap.CellToWorld(
+        Vector3 destination = tilemap.GetCellCenterWorld(
             (Vector3Int)newTargetTilePosition
         );
 
+        Vector2 difference = (Vector2)destination - rb.position;
+        float distance = difference.magnitude;
+
+        if (distance < 0.01f)
+            return;
+
+        // 플레이어의 Collider로 이동 경로 확인
+        int hitCount = rb.Cast(
+            difference.normalized,
+            castHits,
+            distance
+        );
+
+        // 앞에 충돌할 물체가 있으면 이동 시작 안 함
+        if (hitCount > 0)
+            return;
+
+        targetTilePosition = newTargetTilePosition;
+        targetPosition = destination;
         isMoving = true;
     }
 
@@ -80,28 +103,31 @@ public class PlayerMovement : MonoBehaviour
             rb.MovePosition(targetPosition);
             currentTilePosition = targetTilePosition;
             isMoving = false;
+            if (encounterTilemap != null &&
+     encounterTilemap.HasTile((Vector3Int)currentTilePosition))
+            {
+                if(encounterChance.ChanceEncounter())
+                {
+                    EnemyPokemon wildPokemon = wildPokemonGenerator.GenerateWildPokemon();
+                    Debug.Log(
+    $"야생 포켓몬 출현!\n" +
+    $"이름: {wildPokemon.Name}\n" +
+    $"레벨: {wildPokemon.Level}\n" +
+    $"HP: {wildPokemon.CurrentHp}\n" +
+    $"공격력: {wildPokemon.Attack}\n" + 
+    $"방어력: {wildPokemon.Defense}\n" +
+    $"특수공격: {wildPokemon.SpecialAttack}\n" +
+    $"특수방어: {wildPokemon.SpecialDefense}\n" +
+    $"스피드: {wildPokemon.Speed}");
+
+                    BattleManager battleManager = FindFirstObjectByType<BattleManager>();
+                    battleManager.StartWildBattle(wildPokemon);
+                }
+
+            }
+
         }
     }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        rb.linearVelocity = Vector2.zero;
-
-        if (targetTilePosition.x > currentTilePosition.x)
-            blockedKey = KeyCode.D;
-        else if (targetTilePosition.x < currentTilePosition.x)
-            blockedKey = KeyCode.A;
-        else if (targetTilePosition.y > currentTilePosition.y)
-            blockedKey = KeyCode.W;
-        else if (targetTilePosition.y < currentTilePosition.y)
-            blockedKey = KeyCode.S;
-
-        targetTilePosition = currentTilePosition;
-        targetPosition = tilemap.GetCellCenterWorld(
-            (Vector3Int)currentTilePosition
-        );
-
-        rb.position = targetPosition;
-        isMoving = false;
-    }
+    
 
 }

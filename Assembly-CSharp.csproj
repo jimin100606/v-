@@ -65,9 +65,11 @@
     <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs_with_behavior\tall_grass_react_on_contact\Scripts\TallGrassAnimationOnContact.cs" />
     <Compile Include="Assets\Layer Lab\Scripts\PanelControl.cs" />
     <Compile Include="Assets\Gif\Ruccho\FangAutoTile\Sample\OnMapPlayerController.cs" />
+    <Compile Include="Assets\Scripts\WildPokemonGenerator.cs" />
     <Compile Include="Assets\Scripts\BattleManager.cs" />
     <Compile Include="Assets\Scripts\PlayerParty.cs" />
     <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs_with_behavior\chest_open_on_contact\Scripts\ChestAnimationOnContact.cs" />
+    <Compile Include="Assets\Scripts\EncounterChance.cs" />
     <Compile Include="Assets\Gif\Super_Retro_Collection\Resources\Prefabs\Crops\Scripts\SpriteSelectFrame.cs" />
     <Compile Include="Assets\Gif\Super_Retro_Collection\Scripts\SuperRetroAssetsDiscounts.cs" />
     <Compile Include="Assets\Scripts\EnemyPokemon.cs" />

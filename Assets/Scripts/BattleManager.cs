@@ -16,7 +16,7 @@ public class BattleManager : MonoBehaviour
     {
         Debug.Log("Àû °ø°Ý Â÷·Ê");
     }
-    public void Start()
+    public void StartNPCBattle()
     {
         PlayerParty playerParty = FindFirstObjectByType<PlayerParty>();
         NpcParty npcParty = FindFirstObjectByType<NpcParty>();
@@ -26,6 +26,17 @@ public class BattleManager : MonoBehaviour
             npcParty.GetFirstPokemon()
         );
     }
+
+    public void StartWildBattle(EnemyPokemon wildPokemon)
+    {
+        PlayerParty playerParty = FindFirstObjectByType<PlayerParty>();
+
+        StartBattle(
+            playerParty.GetFirstPokemon(),
+            wildPokemon
+        );
+    }
+
     public void StartBattle
        (PlayerParty.PlayerPokemon player,
         EnemyPokemon enemy)

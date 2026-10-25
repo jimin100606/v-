@@ -1,0 +1,138 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\v-\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\v-\\assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playermovement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\v-\\assets\\scripts\\encounterchance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\encounterchance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\v-\\assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\battlemanager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\v-\\assets\\scripts\\enemypokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemypokemon.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|C:\\Users\\User\\Desktop\\v-\\assets\\scripts\\playerparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|c:\\users\\user\\desktop\\v-\\assets\\scripts\\npcparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2E91A342-581B-301D-43BB-A33CAFBBF84E}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\npcparty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{083AFAB1-F6DD-5E3A-540C-CB32337DB534}|Assembly-CSharp-Editor.csproj|C:\\Users\\User\\Desktop\\v-\\assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{083AFAB1-F6DD-5E3A-540C-CB32337DB534}|Assembly-CSharp-Editor.csproj|solutionrelative:assets\\tutorialinfo\\scripts\\editor\\readmeeditor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "NpcParty.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\NpcParty.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\NpcParty.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\NpcParty.cs",
+              "RelativeToolTip": "Assets\\Scripts\\NpcParty.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T08:37:29.701Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyPokemon.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\EnemyPokemon.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyPokemon.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\EnemyPokemon.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyPokemon.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAAwCEAAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T08:36:55.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "BattleManager.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\BattleManager.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\BattleManager.cs",
+              "RelativeToolTip": "Assets\\Scripts\\BattleManager.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwBQAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T08:33:45.192Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "EncounterChance.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\EncounterChance.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EncounterChance.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\EncounterChance.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EncounterChance.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAuwBEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:27:14.108Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "PlayerMovement.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerMovement.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\PlayerMovement.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerMovement.cs",
+              "ViewState": "AgIAAFYAAAAAAAAAAAAAAGsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T07:14:25.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReadmeEditor.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeDocumentMoniker": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+              "RelativeToolTip": "Assets\\TutorialInfo\\Scripts\\Editor\\ReadmeEditor.cs",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAswFkAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T06:48:50.42Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PlayerParty.cs",
+              "DocumentMoniker": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\PlayerParty.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerParty.cs",
+              "ToolTip": "C:\\Users\\User\\Desktop\\v-\\Assets\\Scripts\\PlayerParty.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerParty.cs",
+              "ViewState": "AgIAACoAAAAAAAAAAAAowEMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-25T06:39:08.358Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
